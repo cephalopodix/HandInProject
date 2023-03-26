@@ -43,7 +43,7 @@ function displayForecast(response) {
             forecastDay.time
           )}</div>
           <img
-            src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/${
+            src="https://shecodes-assets.s3.amazonaws.com/api/weather/icons/${
               forecastDay.condition.icon
             }.png"
             alt=""
